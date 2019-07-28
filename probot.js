@@ -4,7 +4,7 @@ const fs = require("fs");
 const dateFormat = require('dateformat');
 const client = new Discord.Client(); 
 const Canvas = require("canvas"); //npm i canvas
-const prefix = "YOUR Prefix Here" // برفكس
+const prefix = "*" // برفكس
 let profile = JSON.parse(fs.readFileSync("profile.json", "utf8"))
 
 
@@ -824,4 +824,4 @@ message.channel.stopTyping()
 })
 }
 });
-client.login("NjA0ODI1OTI2ODQwMDkwNjI0.XTzmDw.iUo-V36I6SskLXiwe7qskon-Hpo");  // توكن حقق
+client.login("NjA0ODM0MzUwMzA3MjEzMzQy.XTzt6A.p0H6gOFNRigax2hpUQGAyhrfuJI");  // توكن حقق
